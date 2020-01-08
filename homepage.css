@@ -1,0 +1,281 @@
+body {
+  font-size: 20px;
+  position: relative;
+}
+
+#sidebar {
+  background-color: #323232;
+  position: fixed;
+  width: 100%;
+}
+
+#sidebar-profile img{
+    width: 160px;
+    margin: 20px;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand {
+  margin: 0px;
+}
+
+#sidebar-lists {
+    list-style-type: none;
+    margin: 0;  
+    padding: 0;
+    margin-top: 10px;
+    display: block;
+}
+
+a {
+  color: #999999;
+}
+
+a:hover, a:focus {
+  color: #d8d8d8;
+  text-decoration: none;
+}
+
+#social-icons {
+    margin-top: 30px;
+    display: block;
+}
+
+#social-icons a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #495057;
+  color: #999999;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  margin:10px;
+  padding-left: 1px
+}
+
+#social-icons a:hover {
+  background-color: #d8d8d8;
+}
+
+
+section:last-child {
+  border-bottom: none;
+}
+
+section:first-child {
+  display: flex;
+  flex-direction: column;
+  text-align:justify;
+  padding-top: 80px;
+}
+
+section {
+  padding-left: 40px;
+  border-bottom: solid;
+  padding-right: 40px;
+  border-color: #d8d8d8;
+  border-width: 2px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+#sidebar-content-wrapper {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 992px) {
+  #sidebar {
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+
+  section {
+    padding-left: 320px;
+    padding-right: 70px;
+  }
+
+  section:first-child {
+    min-height:100vh;
+    min-width: 100vw;
+    padding-top: 40px;
+  }
+
+}
+
+p {
+  font-size: 20px;
+  margin: 0px;
+}
+
+h1 {
+  padding-top: 40px;
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+#about-me {
+  margin-top: 5%;
+  padding-right: 20px;
+}
+
+.reseach-interests {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.name span {
+  vertical-align:middle;
+}
+
+.name-card {
+  margin-bottom: 40px;
+}
+
+.address {
+  font-size: 24px;
+  color: #999999;
+}
+
+#english-name {
+  font-family: "Helvetica Neue";
+  font-size: 70px;
+  line-height: 1em;
+  font-weight: 500;
+}
+
+#chinese-name {
+  font-family: "STFangsong", "STSong";
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 2em;
+}
+
+.university, .experience {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.university-logo img {
+  width: 150px;
+}
+
+.university-logo {
+  display: inline-block;
+}
+
+.university-text {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.university-details{
+  display: flex;
+  align-items: center;
+}
+
+
+.university-time, .experience-time {
+  font-size: 20px;
+  color: #a80510;
+}
+
+#stanford img {
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 60px;
+}
+
+#tongji img {
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 80px;
+}
+
+.paper-title {
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.awards-lists i{
+  padding-top: 5px;
+}
+
+#content a {
+  color: #5689d1; 
+}
+
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+.university-name, .experience-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.experience-location {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  color: #999999;
+}
+
+.address a{
+  color: #999999;
+}
+
+.project img {
+  width: 180px;
+}
+
+.project {
+  width: 250px;
+  height: 300px;
+}
+
+.project {
+  padding: 20px;
+  border-style: solid;
+  border-color: #f3f3f3;
+  border-width: 2px;
+}
+
+.project:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-color: white;
+  
+}
+
+.project-icon {
+  width: 210px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.project-summary {
+  font-size: 18px;
+}

@@ -1,1 +1,249 @@
-Hello World
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Peng Li</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="homepage.css"/>
+    </head>
+    <body>
+<!-- Sidebar -->
+        <nav class="navbar navbar-expand-lg navbar-dark" id="sidebar">
+            <a class="navbar-brand js-scroll-trigger" href="#about" id="sidebar-top">
+                <span class="d-block d-lg-none">Peng Li</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebar-content-wrapper" aria-controls="sidebar-content-wrapper" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="sidebar-content-wrapper">
+                <div id="sidebar-content">
+                    <div class="d-none d-lg-block" id="sidebar-profile">
+                        <img class="rounded-circle" src="img/profile.jpg">
+                    </div>
+                    <ul class="navbar-nav" id="sidebar-lists">
+                        <li class="nav-item" >
+                            <a class="nav-link js-scroll-trigger active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                        </li>
+                    </ul>
+                    <div id="social-icons" class="d-none d-lg-block">
+                        <a href="http://linkedin.com/in/peng-li-070b56171" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:pengli@gatech.edu">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/LiPengCS" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+<!--  Content -->
+        <div id="content">
+<!-- About -->
+            <section id="about">
+                <div id="about-me">
+                    <div class="name-card">
+                        <div class="name"><span id="english-name">Peng Li </span><span id="chinese-name">(李鹏)</span></div>
+                        <div class="address">Ph.D. Student in Computer Science, Georgia Tech | <a href="mailto:pengli@gatech.edu">pengli@gatech.edu</a></div>
+                    </div>
+                    
+                    <div class="introduction">
+                        <p>I am a first year Ph.D. Student in Computer Science at Georgia Tech. I am currently being adivised by Prof. <a href="https://www.cc.gatech.edu/~xchu33/" target="_blank">Xu Chu</a>. I finished my M.S. degree in Computer Science at Georgia Tech. Prior to joining Georgia Tech, I graduated with a M.S. degree in Civil Engineering from Stanford University and a B.Eng. degree in Civil Engineering from Tongji Unviersity.
+                        </p>
+                        <p class="reseach-interests">
+                            My research interests include: Machine Learning, Data Management and Computer Vision.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+<!-- Education -->
+            <section id="education">
+                <h1>Education</h1>
+                <div class="university-lists">
+                    <div class="university" id="gatech">
+                        <div class="university-details">
+                            <div class="university-logo">
+                                <a href="https://www.gatech.edu/" target="_blank">
+                                    <img src="./img/education/gatech.png"> 
+                                </a>
+                            </div>
+                            <div class="university-text">
+                                <div class="university-name">Georgia Institute of Technology</div>
+                                <p> M.S. and Ph.D. in Computer Science<br>
+                                Advisor: Prof. <a href="https://www.cc.gatech.edu/~xchu33/" target="_blank">Xu Chu</a><br>
+                                GPA: 4.0 / 4.0
+                                </p>
+                            </div>
+                        </div>
+                        <div class="university-time">
+                            <span>Aug 2018 - Present</span>
+                        </div>
+                    </div>
+
+                    <div class="university" id="stanford">
+                        <div class="university-details">
+                            <div class="university-logo">
+                                <a href="https://www.stanford.edu/" target="_blank">
+                                    <img src="./img/education/stanford.png"> 
+                                </a>
+                            </div>
+                            <div class="university-text">
+                                <div class="university-name">Stanford University</div>
+                                <p> M.S. in Civil Engineering<br>
+                                GPA: 4.07 / 4.0
+                                </p>
+                            </div>
+                        </div>
+                        <div class="university-time">
+                            <span>Sep 2016 - Jun 2018</span>
+                        </div>
+                    </div>
+
+                    <div class="university" id="tongji">
+                        <div class="university-details">
+                            <div class="university-logo">
+                                <a href="https://www.tongji.edu.cn/" target="_blank">
+                                    <img src="./img/education/tongji.png"> 
+                                </a>
+                            </div>
+                            <div class="university-text">
+                                <div class="university-name">Tongji University</div>
+                                <p> B.Eng. in Civil Engineering<br>
+                                    GPA: 4.86 / 5.0<br>
+                                    Ranking: 1 / 559<br>
+                                
+                                </p>
+                            </div>
+                        </div>
+                        <div class="university-time">
+                            <span>Sep 2011 - Jul 2015</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+<!-- Experience -->
+            <section id="experience">
+                <h1>Experience</h1>
+                <div class="experience-list">
+                    <div class="experience">
+                        <div class="experience-text">
+                            <div class="experience-title">Graduate Research Assistant</div>
+                            <div class="experience-location">Georgia Institue of Technology, GA</div>
+                            <div class="experience-details">Conducted research on automatic fuzzy join without labeled examples.</div>
+                        </div>
+                        <div class="experience-time">May 2019 - Aug 2019</div>
+                    </div> 
+                </div>
+
+            </section>
+
+<!-- Projects -->
+            <section id="projects">
+                <h1>Projects</h1>
+                Under Construction
+<!--                 <div class="project-lists">
+                    <div class="project">
+                        <a class="project-link" href="https://github.com/chu-data-lab/AutomaticFuzzyJoin" target="_blank">
+                            <div class="project-icon">
+                                <img src="./img/project/autofj.png">
+                            </div>
+                        </a>
+                        <div class="project-title">
+                            AutoFJ
+                        </div>
+                        <div class="project-summary">
+                            Perform Automatic fuzzy join between two tables with no labeled examples.
+                        </div>                       
+                    
+                    </div>
+
+
+                </div> -->
+            </section>
+
+<!-- Publications -->
+            <section id="publications">
+                <h1>Publications</h1>
+                <div class="paper">
+                    <div class="paper-title">
+                        CleanML: A Benchmark for Joint Data Cleaning and Machine Learning [Experiments and Analysis]
+                    </div>
+                    <div class="paper-authors">
+                        <span><u>Peng Li</u></span>,
+                        <span>Xi Rao</span>,
+                        <span>Jennifer Blase</span>,
+                        <span>Yue Zhang</span>,
+                        <span>Xu Chu</span>, and 
+                        <span>Ce Zhang</span>
+                    </div>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/abs/1904.09483">[arXiv]</a> 
+                        <a href="https://github.com/chu-data-lab/CleanML">[github]</a> 
+                    </div>
+                </div>
+            </section>
+
+<!-- Awards -->
+            <section id="awards">
+                <h1>Awards</h1>
+                <div class="awards-lists">
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <p>Best Seismic Noise Detection Prize in Stanford Big Earth Hackathon Competition, 2018<p></li>
+                        <li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <p>Outstanding Undergraduate Graduation Project, Tongji University, 2015<p></li>
+                        <li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <p>China National Scholarship, 2013<p></li>
+                        <li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <p>First Prize Academic Scholarship, Tongji University, 2012, 2013<p></li>
+                        <li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+        
+        <script src="js/jquery/jquery.min.js"></script>
+        <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery-easing/jquery.easing.min.js"></script> 
+
+        <!-- Custom scripts for this template -->
+        <script src="js/homepage.js"></script>
+    </body>
+    
+</html>
