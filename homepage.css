@@ -206,11 +206,33 @@ h1 {
   width: 80px;
 }
 
+.experience-details {
+  color: #999999;
+}
+
+.paper {
+  margin-top: 20px;
+}
+
 .paper-title {
   font-size: 20px;
   font-weight: 500;
 
 }
+
+.paper-authors {
+  color: #999999;
+}
+
+.paper-venue {
+  color: #999999;
+}
+
+.publication-year {
+   font-size: 25px;
+   font-weight: 600;
+}
+
 
 .awards-lists i{
   padding-top: 5px;
