@@ -135,6 +135,11 @@ h1 {
   margin-top: 20px;
 }
 
+.paper-authors-me {
+  color:black;
+  font-weight: 500;
+}
+
 .reseach-interests {
   margin-top: 10px;
   margin-bottom: 40px;
@@ -210,9 +215,6 @@ h1 {
   width: 80px;
 }
 
-.experience-details {
-  color: #999999;
-}
 
 .paper {
   margin-top: 20px;
