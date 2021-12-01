@@ -135,6 +135,10 @@ h1 {
   margin-top: 20px;
 }
 
+.news-list {
+  width: 800px
+}
+
 .paper-authors-me {
   color:black;
   font-weight: 500;
