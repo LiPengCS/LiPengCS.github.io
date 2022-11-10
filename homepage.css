@@ -311,3 +311,8 @@ a:hover, a:focus, a:active {
 .project-summary {
   font-size: 18px;
 }
+
+.experience-time, .university-time{
+  min-width: 200px;
+  margin-left: 50px;
+}
